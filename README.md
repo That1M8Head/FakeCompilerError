@@ -6,6 +6,8 @@ You should have `g++` installed as part of MinGW. If you don't have MinGW, [go i
 
 Once that's done, run `build.bat` (wow, a batch file, how ironic)
 
+`fce.exe` will now be available. You can rename this to whatever you want.
+
 ## Editable parts
 The header file `main.hpp` allows you to change certain text strings.
 ### Batch script
