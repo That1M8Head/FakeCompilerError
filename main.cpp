@@ -5,7 +5,7 @@
 using namespace std;
 /* pseudobatch.h contains a batch file-like command string
    that will be executed upon activation. */
-#include "pseudobatch.h"
+#include "main.hpp"
 
 /* Hi! Welcome to the source code! Do you like looking at source code? Here it is! 
 Do you like screwing around with source code? It's here!
@@ -51,7 +51,7 @@ int main(int argc, char* argv[])
     if ((leave == "register") || (leave == "Register"))
     {
         string key;
-        string rightkey = "FUX42-BUTIS-WELC0-METOW-IND0W";
+        string rightkey = string(CorrectKey);
         int tries = 0;
         while (key != rightkey)
         {
