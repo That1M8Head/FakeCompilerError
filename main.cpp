@@ -1,12 +1,3 @@
-#include <iostream>
-#include <string>
-#include <cstring>
-#include <fstream>
-using namespace std;
-/* pseudobatch.h contains a batch file-like command string
-   that will be executed upon activation. */
-#include "main.hpp"
-
 /* Hi! Welcome to the source code! Do you like looking at source code? Here it is! 
 Do you like screwing around with source code? It's here!
 
@@ -14,6 +5,16 @@ Just sign this EULA agreeing to certain terms, i.e. you can't...
 Nah, just kidding. Go nuts.
 
 But not literally. I hope. */
+
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <fstream>
+using namespace std;
+
+/* See the README for information about
+   what you can do with the header file. */
+#include "main.hpp"
 
 int main(int argc, char* argv[])
 {
