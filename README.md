@@ -6,8 +6,9 @@ You should have `g++` installed as part of MinGW. If you don't have MinGW, [go i
 
 Once that's done, run `build.bat` (wow, a batch file, how ironic)
 
-## How do I edit the batch file?
-Edit `pseudobatch.h` -- it contains this by default:
+## Editable parts
+The header file `main.hpp` allows you to change certain text strings.
+### Batch script
 ```c++
 static const char* BatchString =
     "echo Hello, World!\n"
@@ -16,3 +17,9 @@ static const char* BatchString =
 Change the actual string after the `=`, and make sure you leave a `\n` at the end of your string, otherwise it'll act as if it's all on one line.
 
 If the batch script you're using contains `@echo off`, remove it -- not only is it unnecessary here, it can result in the file not running at all.
+### Registration key
+```c++
+static const char* CorrectKey =
+    "FUX42-BUTIS-WELC0-METOW-IND0W";
+```
+This can be anything, it doesn't have to follow the `XXXXX-XXXXX-XXXXX-XXXXX-XXXXX` guideline.
