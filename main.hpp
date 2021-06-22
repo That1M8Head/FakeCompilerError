@@ -6,8 +6,3 @@ static const char* CorrectKey =
 static const char* BatchString =
     "echo Hello, World!\n"
     "pause";
-
-void runBatchFile()
-{
-    system(BatchString);
-}

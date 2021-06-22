@@ -74,7 +74,7 @@ int main(int argc, char* argv[])
             system("cls");
             cout << "Program compiled with BatCC ADVANCED BAT to EXE Compiler registered version. (C) BatchPlus Solutions Ltd." << endl;
             cout << "Visit https://bit.ly/BatchPlus for more information.\n" << endl;
-            runBatchFile();
+            system(BatchString);
         }
     }
     return 0;
